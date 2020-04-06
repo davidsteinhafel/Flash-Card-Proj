@@ -6,9 +6,10 @@ function App() {
   
   return (
     <>
-    <button>Add Flash Card</button>
-    <button>Get Flash Cards</button>
-    <button>Remove Flash Card</button>
+    <button>Add</button>
+    <button>Get</button>
+    <button>Remove</button>
+    <button>Delete</button>
     <div> 0 left to do</div>
     </>
   )
