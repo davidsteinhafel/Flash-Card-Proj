@@ -1,17 +1,17 @@
 import React from 'react';
-import FlashCardList from './FlashCardList'
-
+import axios from 'axios';
+import SubmitNew from './SubmitNew';
+function Get(){
+  axios.get('https://localhost:44393/api/collection')
+      .then(res => {
+          const data = res.data;
+          console.log(data);
+      });
+}
 function App() {
-
-  
+  Get();
   return (
-    <>
-    <button>Add</button>
-    <button>Get</button>
-    <button>Remove</button>
-    <button>Delete</button>
-    <div> 0 left to do</div>
-    </>
+    <SubmitNew></SubmitNew>
   )
 }
 
