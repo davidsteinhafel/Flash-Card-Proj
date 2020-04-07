@@ -1,12 +1,12 @@
-import React from 'react'
+// import React from 'react'
 
 
-class FlashCard extends React.Component {
-    state= {
-        Key: 'Id',
-        Word: 'Word',
-        Definition:'Definition',
-        StackFK: 'StackId',
-        Stack: 'Stack'
-    }
-}
+// class FlashCard extends React.Component {
+//     state= {
+//         Key: 'Id',
+//         Word: 'Word',
+//         Definition:'Definition',
+//         StackFK: 'StackId',
+//         Stack: 'Stack'
+//     }
+// }

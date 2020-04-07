@@ -1,43 +1,43 @@
-import React from 'react'
+// import React from 'react'
 
-const axios = require('axios');
+// const axios = require('axios');
 
-class API {
+// class API extends React.Component{
     
-    async function Get(){
-        axios.get('https://localhost:44393/api/collection')
-            .then(res => {
-                const persons = res.data;
-                console.log(persons);
-            });
-    }
-    async function Post(){
-        const config = {
-            method: 'Post',
-            url: 'https://localhost:44393/api/collection'
+//     async function Get(){
+//         axios.get('https://localhost:44393/api/collection')
+//             .then(res => {
+//                 const persons = res.data;
+//                 console.log(persons);
+//             });
+//     }
+//     async function Post(){
+//         const config = {
+//             method: 'Post',
+//             url: 'https://localhost:44393/api/collection'
     
-        }
-        let res = await axios(config)
-        console.log(res.status);
-    }
-    async function Put(){
-        const config = {
-            method: 'Put',
-            url: 'https://localhost:44393/api/collection'
+//         }
+//         let res = await axios(config)
+//         console.log(res.status);
+//     }
+//     async function Put(){
+//         const config = {
+//             method: 'Put',
+//             url: 'https://localhost:44393/api/collection'
     
-        }
-        let res = await axios(config)
-        console.log(res.status);
-    }
-    async function Delete(){
-        const config = {
-            method: 'Delete',
-            url: 'https://localhost:44393/api/collection'
+//         }
+//         let res = await axios(config)
+//         console.log(res.status);
+//     }
+//     async function Delete(){
+//         const config = {
+//             method: 'Delete',
+//             url: 'https://localhost:44393/api/collection'
     
-        }
-        let res = await axios(config)
-        console.log(res.status);
-    }
+//         }
+//         let res = await axios(config)
+//         console.log(res.status);
+//     }
     
-}
+// }
 
